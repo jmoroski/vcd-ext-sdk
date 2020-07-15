@@ -4,12 +4,8 @@ name: 'Typescript API client CI'
 on:
   push:
     branches: [ master ]
-    paths:
-    - '/typescript/api-client/*'
   pull_request:
     branches: [ master ]
-    paths:
-    - '/typescript/api-client/*'
 jobs:
   build:
     runs-on: ubuntu-latest
